@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #ff6b6b;
+  --background-color: #fff5f5;
+  --text-color: #2d3436;
+  --hover-color: #ff8787;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+} 
