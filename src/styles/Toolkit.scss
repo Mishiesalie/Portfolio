@@ -1,0 +1,25 @@
+.toolkit {
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+
+    i {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+    }
+
+    span {
+      font-weight: 500;
+    }
+  }
+} 

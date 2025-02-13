@@ -1,0 +1,29 @@
+.about {
+  &-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  &-text {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .profile-image {
+    img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  @media (max-width: 768px) {
+    &-content {
+      grid-template-columns: 1fr;
+    }
+  }
+} 
