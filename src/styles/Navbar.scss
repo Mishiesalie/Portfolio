@@ -1,6 +1,7 @@
 .navbar {
   background: white;
   padding: 1rem 0;
+  position: -webkit-sticky; /* For iOS Safari support */
   position: sticky;
   top: 0;
   z-index: 100;
