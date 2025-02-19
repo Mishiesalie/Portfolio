@@ -1,4 +1,5 @@
 import '../styles/About.scss';
+import profileImage from '../images/me.png';
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
             </p>
           </div>
           <div className="profile-image">
-            <img src="/images/profile.jpg" alt="Profile" />
+            <img src={profileImage} alt="Profile" />
           </div>
         </div>
       </div>
