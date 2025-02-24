@@ -20,7 +20,11 @@ const About = () => {
             </p>
           </div>
           <div className="profile-image">
-            <img src={profileImage} alt="Profile" />
+            <img 
+              src={profileImage} 
+              alt="Profile"
+              style={{ maxWidth: '300px', width: '100%' }}
+            />
           </div>
         </div>
       </div>
